@@ -1,0 +1,228 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Signika', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #9C9FB7;
+    min-width: 50%;
+    overflow: hidden;
+}
+
+.dayGradientBackground {
+	/* background: -webkit-linear-gradient(rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: linear-gradient(rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3)); */
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(-40 deg, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-40deg, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.nightGradientBackground {
+    background: -webkit-linear-gradient(-40deg, rgb(61, 57, 83),  rgb(76, 72, 97), rgba(119, 129, 145, 1), rgba(0, 37, 75, 0.8), rgba(0, 37, 75, 1));
+    background: linear-gradient(-40deg, rgb(61, 57, 83),  rgb(76, 72, 97), rgba(119, 129, 145, 1), rgba(0, 37, 75, 0.8), rgba(0, 37, 75, 1));
+}
+
+#mlhTag {
+	display: block;
+	max-width: 6.5%;
+	min-width: 5%;
+	position: absolute;
+	right: 4%;
+	top: 0;
+	z-index: 10000;
+	transition: all .40s ease;
+}
+
+#mlhTag:hover {
+	top: -1%;
+	transition: all .40s ease;
+}
+
+ul {
+    list-style-type: none;
+    /* padding: center; */
+    overflow: hidden;
+    /* background-color: rgb(10, 10, 10); */
+    background-color: rgba(255,255,255,0.7);
+}
+
+li {
+    float: left;
+}
+
+#title {
+    text-transform: uppercase;
+    color: rgb(172, 148, 148);
+    padding: 0%;
+    font-size: 1.3em;
+}
+
+#navbarRight {
+    padding-right: 12%;
+}
+
+#navbarRight a {
+    margin: auto;
+}
+
+.right {
+    float: right;
+}
+
+li a{
+    display: block;
+    color: rgb(172, 148, 148);
+    text-align: center;
+    padding: 20px 20px;
+    margin: auto;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(41, 39, 40);
+  }
+
+/* Homepage ----------------------------------------------------------------------------------------------------------------------------*/
+#countdown {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-left: 65%;
+  margin-right: 8%;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+#countdown span {
+  padding: 0% 3%;
+}
+
+#countdown #dayTimer, #hourTimer, #minTimer, #secTimer {
+  opacity: 0;
+}
+
+#countdown p {
+  margin: 1%;
+}
+
+#countdown .timeUnit {
+  font-size: 1.2rem;
+}
+
+/* Schedule ----------------------------------------------------------------------------------------------------------------------------*/
+#chart {
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    background-color: pink;
+}
+
+.dayTitle {
+    text-align: center;
+    padding: 1%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.event {
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+}
+
+.event .location {
+    float: right;
+}
+
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 14px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #navbarRight {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+}
+
+/* Resources ----------------------------------------------------------------------------------------------------------------------------*/
+.dropbtn {
+  background-color: #553568;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 50%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #77617e;
+}

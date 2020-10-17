@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rose Hack 2021</title>		
+	<link rel="icon" href="../icons/rosehacklogo.png" type="image/icon type">
+
+	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" href="Assets/CSS/index.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- <a href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" target="_blank">
+	<img id="mlhTag" src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" alt="Major League Hacking 2021 Hackathon Season">
+</a> -->
+	
+<div class ="topnav">
+	<ul>
+		<li id="title"><a href="index.html">Rose Hack</a></li>
+		<div id="navbarRight">
+			<li class="right"><a href="sponsors.html">Sponsors</a></li>
+			<li class="right"><a href="resources.html">Resources</a></li>
+			<li class="right"><a href="schedule.html">Schedule</a></li>
+		</div>
+		<a  href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fas fa-bars"></i>
+		</a>
+	</ul>	  
+</div>
+
+<script>
+	function myFunction() {
+	  var x = document.getElementById("navbarRight");
+	  if (x.style.display === "block") {
+		x.style.display = "none";
+	  } else {
+		x.style.display = "block";
+	  }
+	}
+</script>
+
+<div id="countdown">
+	<span>
+		<p id="dayTimer">**</p>
+		<p class="timeUnit">Days</p>
+	</span>
+	<span>
+		<p id="hourTimer">**</p>
+		<p class="timeUnit">Hrs</p>
+	</span>
+	<span>
+		<p id="minTimer">**</p>
+		<p class="timeUnit">Min</p>
+	</span>
+	<span>
+		<p id="secTimer">**</p>
+		<p class="timeUnit">Sec</p>
+	</span>
+</div>
+
+<script type="text/javascript" src="Assets/JS/index.js"></script>
+
+</body>
+</html>
