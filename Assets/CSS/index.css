@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
     font-size: 22px;
     letter-spacing: 0.1rem;
@@ -18,7 +18,7 @@ body {
 	background: linear-gradient(rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3)); */
     background: #d9a7c7;  /* fallback for old browsers */
     background: -webkit-linear-gradient(-40 deg, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(-40deg, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-40deg, #f2dcf5, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
