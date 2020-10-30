@@ -1047,12 +1047,12 @@ h1, h2, h3 {
   }
 
 .dayGradientBackground {
-	background: -webkit-linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
-	background: linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35),rgba(168, 168, 219, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: -webkit-linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35));
+	background: linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35));
 }
 
 .nightGradientBackground {
-	background: linear-gradient(rgb(61, 57, 83), rgb(76, 72, 97), rgba(119, 129, 145, 0.9),  rgba(3, 63, 99, 0.8), rgba(0, 37, 75, 1), rgba(3, 63, 99, 0.8), #001D37);
+	background: linear-gradient(rgb(61, 57, 83));
 }
 
 h1 {
@@ -1341,54 +1341,6 @@ a, a:visited {
 #title h1 {
 	/* padding-top: 11%; */
 	margin-bottom: 3%;
-}
-
-
-#milestones {
-	border-radius: 1.0em;
-	margin: 5% 0;
-	/* padding: 0.2% 0; */
-	padding: 1%;
-	font-size: 1.8em;
-	font-family: "Playfair Display", 'serif';
-	font-weight: 300;
-	/* z-index: 2000; */
-}
-
-.milestonesDayBoxColor {
-	background-color: rgb(255, 255, 255);
-}
-
-.milestonesNightBoxColor {
-	background-color: rgba(255, 255, 255, 0.15);
-	/* background-color: rgba(93, 90, 112, 0.8); */
-}
-
-
-#milestonesdiv {
-	padding: 11%;
-	padding-top:0.2%;
-	position: relative;
-	z-index: 1;
-}
-
-#milestones p {
-	padding: 0 4%;
-}
-
-
-#milestones span {
-	font-size: 2.5em;
-	font-style: italic;
-	font-weight: bold;
-}
-
-#milestones p:nth-of-type(1) {
-	margin-bottom: 0.5%;
-}
-
-#milestones p:nth-of-type(2) {
-	margin-top: 0.5%;
 }
 
 .row {
