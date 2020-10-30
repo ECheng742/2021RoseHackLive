@@ -500,8 +500,8 @@ h1, h2, h3 {
   }
   
   @keyframes belltower {
-	0%, 100% { top: -48%; left: 77%}
-	50% { top: -51%; left: 82%; }
+	0%, 100% { top: 71%; left: -1%}
+	50% { top: 73%; left: -2%; }
   }
 
   /* @keyframes MoveUpDown5-5 {
@@ -2091,50 +2091,9 @@ a, a:visited {
 		50% { top: 48%; left: 10%; }
 	}
 
-	#milestones {
-		font-size: 1.5em;
-	}
-
-	#about {
-		display: block;
-	}
-
-	#about #aboutUs {
-		margin: 6%;
-		padding: 0;
-		text-align: center;
-	}
-
-	#FAQ .row {
-		grid-template-columns: 100%;
-		text-align: left;
-		width: 90%;
-	} 
-
-	#organizers .row {
-		width: 70%;
-	}
-
-	#sponsors .row {
-		grid-template-columns: 50% 50%;
-		margin-top: 5%;
-	}
-
-	#committee .row {
-		width: 80%;
-	}
 	
-	#team .row {
-		display: grid;
-		grid-template-columns: 33.3% 33.3% 33.3%;
-		margin: auto;
-		width: 85%;
-	}
 
-	#team .picrew {
-		width: 80px;
-		height: 80px;
-	}
+	
 
 	#socialMedia a {
 		padding: 0 3%;
