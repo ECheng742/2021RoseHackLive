@@ -239,8 +239,8 @@
   }
   
   @keyframes MoveUpDownH {
-	0%, 100% { top: 101%; left: 68%}
-	50% { top: 95%; left: 66%; }
+	0%, 100% { top: 91%; left: 68%}
+	50% { top: 85%; left: 66%; }
   }
   
   #cloudI {
@@ -468,8 +468,8 @@ h1, h2, h3 {
   }
   
   @keyframes MoveUpDown5 {
-	0%, 100% { top: -19%; left: 72%}
-	50% { top: -16%; left: 69%; }
+	0%, 100% { top: 99%; left: 52%}
+	50% { top: 96%; left: 69%; }
   }
 
   /* @keyframes MoveUpDown5 {
@@ -1320,12 +1320,6 @@ a, a:visited {
 	font-size: 0.6em;
 }
 
-#firstScreen {
-	background-image: url("Animation2021_HQ.png");
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-}
 
 #title {
 	font-size: 1.4em;
@@ -1396,231 +1390,6 @@ a, a:visited {
 #milestones p:nth-of-type(2) {
 	margin-top: 0.5%;
 }
-
-/* #about {
-	display: grid;
-	grid-template-columns: 45% 55%;
-	margin-bottom: 8%;
-	position: relative;
-} */
-
-#about {
-	display: -ms-grid;
-	display: grid;
-	-ms-grid-columns: 45% 55%;
-	    grid-template-columns: 45% 55%;
-	margin-bottom: 8%;
-	position: relative;
-}
-
-#about #aboutUs {
-	text-align: left;
-	padding-top: 15%;
-	padding-left: 14%;
-	padding-right: 2%;
-	/* width: 38%; */
-	/* margin: auto; */
-}
-
-/* #about #help {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	padding-top: 0;
-	width: 90%;
-	margin: auto;
-	text-transform: uppercase;
-} */
-
-#about #help {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	/* grid-template-rows: 40% 40%; */
-	padding: 0;
-	width: 90%;
-	margin: auto;
-	margin-top: 0;
-
-	text-transform: uppercase;
-}
-
-#help span{
-	width: 75%;
-	padding: 1%;
-	margin: 10% auto;
-	border-radius: 0.3em;
-	/* vertical-align: middle; */
-}
-
-#help .row {
-	/* width: 60%; */
-}
-
-#help span {
-	/* width: 55%; */
-	/* margin: auto; */
-}
-
-#help .helpIcon {
-	/* width: 100%; */
-}
-
-#about #help .helpBox {
-	/* margin: 5% 10%; */
-	/* padding: 1%; */
-	/* border-radius: 0.5em; */
-	/* display: block; */
-	/* vertical-align: middle; */
-}
-
-#about #help .grow {
-	/* height: 100%; */
-	/* padding: 1%; */
-	/* heigh: 80%; */
-	/* margin: auto; */
-}
-
-#about #help a {
-	/* height: 100%; */
-	/* width: 100%; */
-}
-
-#about #help img {
-	padding: 4%;
-	/* margin: 4%; */
-	/* text-align: center; */
-	/* margin: auto; */
-	/* margin-top: auto; */
-	/* position: relative; */
-	/* vertical-align: middle; */
-}
-
-#about #help #workshop {
-	/* height: 65%; */
-	padding-top: 10%;
-}
-
-.helpBoxDayBackground {
-	background-color: rgba(255, 255, 255, 0.4);
-}
-
-.helpBoxNightBackground {
-	background-color: rgba(255, 255, 255, 0.05);
-	opacity: 70%;
-}
-
-#about #help div {
-	/* width: 60%; */
-	/* height: 90%; */
-	/* margin: 8% auto; */
-	/* padding: 7%; */
-	/* width: 80%; */
-	/* height: 80%; */
-	/* margin: auto; */
-}
-
-#about #help p {
-	margin: 5% 0;
-	/* font-size: 100%; */
-}
-
-#barbQuote {
-	color: #adb0c7;
-}
-
-#stats {
-	width: 100%;
-	margin-bottom: 12%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	margin-top: 2%;
-	position: relative;
-	color: #adb0c7;
-}
-
-.statsDayTheme {
-	background-color: rgba(255, 255, 255, 0.2);
-}
-
-.statsNightTheme {
-	background-color: rgba(0,0,0,0.1);
-	color: rgb(150,150,165);
-}
-
-/* #stats {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	margin-top: 2%;
-} */
-
-/* #stats .row {
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	width: 100%;
-	padding: 1% 0;
-	/* font-size: 0.8em; */
-	/* height: 7em; *//*
-} */
-
-#stats .row {
-	display: -ms-grid;
-	display: grid;
-	-ms-grid-columns: 25% 25% 25% 25%;
-	    grid-template-columns: 25% 25% 25% 25%;
-	width: 100%;
-	padding: 1% 0;
-	/* font-size: 0.8em; */
-	/* height: 7em; */
-}
-
-#stats div {
-	width: 85%;
-	/* has to be px b/c some have 2 some have 3 lines and makes diff height */
-	/* height: 200px;  */
-	margin: auto;
-}
-
-#stats .column {
-	/* border: 2px solid rgba(121, 117, 122, 0.2); */
-	/* border-radius:0.4em; */
-}
-
-
-#helpOptions {
-	/* display: grid; */
-	/* grid-template-columns: 33% 33% 33%; */
-	/* grid-template-columns: 50% 50%; */
-	/* width: 80%; */
-	/* margin: auto; */
-
-	/* text-transform: uppercase; */
-}
-
-#helpOptions span {
-	/* margin: 5% 10%; */
-	/* border-radius: 0.5em; */
-	/* background-color: rgba(255, 255, 255, 0.8); */
-	/* border: 0.5px solid #9C9FB7; */
-}
-
-#helpOptions div {
-	/* width: 40%; */
-	/* height: 90%; */
-	/* margin: 8% auto; */
-	/* padding: 7%; */
-	/* width: 80%; */
-	/* height: 80%; */
-	/* margin: auto; */
-}
-
-#helpOptions p {
-	/* margin: 5% 0; */
-}
-
-/* .row {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	margin: auto;
-} */
 
 .row {
 	display: -ms-grid;
@@ -1750,17 +1519,6 @@ a, a:visited {
 	grid-template-columns: 33% 33% 33%;
 }
 
-/* table{
-	margin-right: 10%;
-	margin-left: 10%;
-	margin-bottom: 7%;
-} */
-
-/* th, td {
-	padding: 15px;
-	text-align: left;
-  } */
-
 .buttonCom {
 	background-color: #ffffff; 
 	opacity:0.3;
@@ -1791,38 +1549,6 @@ a, a:visited {
 .buttonCom:hover {
 	background-color: #7e6983;
 	color: #ffffff;
-}
-
-#team {
-	position: relative;
-}
-
-#team .row {
-	display: grid;
-	grid-template-columns: 20% 20% 20% 20% 20%;
-	margin: auto;
-	width: 70%;
-}
-
-#team span {
-	margin: auto;
-	height: 100%;
-	width: 100%;
-}
-
-#team .picrew {
-	border-radius: 50%;
-	width: 125px;
-	height: 125px;
-	border: 3px solid white;
-}
-
-#team span img:nth-of-type(1) {
-	/* border: 3px solid black; */
-}
-
-#team h6 {
-	margin-top: 0;
 }
 
 #socialMedia {
@@ -1921,6 +1647,11 @@ a, a:visited {
 	zoom: 1.0;
 }
 
+
+
+
+
+/* tablet development */
 @media only screen and (max-width: 1024px) {
 	body {
 		font-size: 18px;
@@ -2050,6 +1781,13 @@ a, a:visited {
 	}
 }
 
+
+
+
+
+
+
+/* mobile development */
 @media only screen and (max-width: 600px) {
 
 	#balloonB {
@@ -2086,307 +1824,291 @@ a, a:visited {
 		left: 85%;
 		top: 21%;
 		width: 65%;
-	  }
-	  @keyframes whale_girl {
-		0%, 100% { top: 49%; left: 10%}
-		50% { top: 51%; left: 16%; }
-	  }
-	
-	  #crane1 {
-		animation: crane1 7s linear infinite;
-		position: absolute;
-		opacity: 0.8;
-		left: 85%;
-		top: 21%;
-	  }
-	  @keyframes crane1 {
-		0%, 100% { top: 5.5%; left: 64%}
-		50% { top: 6.5%; left: 62%; }
-	  }
-	
-	  #crane2 {
-		animation: crane2 7s linear infinite;
-		position: absolute;
-		opacity: 0.8;
-		left: 85%;
-		top: 21%;
-	  }
-	  @keyframes crane2 {
-		0%, 100% { top: 7%; left: 66%}
-		50% { top: 8%; left: 64%; }
-	  }
-	
-	  #crane3 {
-		animation: crane3 7s linear infinite;
-		position: absolute;
-		opacity: 0.8;
-		left: 85%;
-		top: 21%;
-	  }
-	  @keyframes crane3 {
-		0%, 100% { top: 8.5%; left: 68%}
-		50% { top: 9.5%; left: 66%; }
-	  }
-	
-	  #crane4 {
-		animation: crane4 7s linear infinite;
-		position: absolute;
-		opacity: 0.8;
-		left: 85%;
-		top: 21%;
-	  }
-	  @keyframes crane4 {
-		0%, 100% { top: 10%; left: 66%}
-		50% { top: 11%; left: 64%; }
-	  }
-	
-	  #crane5 {
-		animation: crane5 7s linear infinite;
-		position: absolute;
-		opacity: 0.8;
-		left: 85%;
-		top: 21%;
-	  }
-	  @keyframes crane5 {
-		0%, 100% { top: 11.5%; left: 64%}
-		50% { top: 12.5%; left: 62%; }
-	  }
+    }
+    @keyframes whale_girl {
+    0%, 100% { top: 49%; left: 10%}
+    50% { top: 51%; left: 16%; }
+    }
+
+    #crane1 {
+    animation: crane1 7s linear infinite;
+    position: absolute;
+    opacity: 0.8;
+    left: 85%;
+    top: 21%;
+    }
+    @keyframes crane1 {
+    0%, 100% { top: 5.5%; left: 64%}
+    50% { top: 6.5%; left: 62%; }
+    }
+
+    #crane2 {
+    animation: crane2 7s linear infinite;
+    position: absolute;
+    opacity: 0.8;
+    left: 85%;
+    top: 21%;
+    }
+    @keyframes crane2 {
+    0%, 100% { top: 7%; left: 66%}
+    50% { top: 8%; left: 64%; }
+    }
+
+    #crane3 {
+    animation: crane3 7s linear infinite;
+    position: absolute;
+    opacity: 0.8;
+    left: 85%;
+    top: 21%;
+    }
+    @keyframes crane3 {
+    0%, 100% { top: 8.5%; left: 68%}
+    50% { top: 9.5%; left: 66%; }
+    }
+
+    #crane4 {
+    animation: crane4 7s linear infinite;
+    position: absolute;
+    opacity: 0.8;
+    left: 85%;
+    top: 21%;
+    }
+    @keyframes crane4 {
+    0%, 100% { top: 10%; left: 66%}
+    50% { top: 11%; left: 64%; }
+    }
+
+    #crane5 {
+    animation: crane5 7s linear infinite;
+    position: absolute;
+    opacity: 0.8;
+    left: 85%;
+    top: 21%;
+    }
+    @keyframes crane5 {
+    0%, 100% { top: 11.5%; left: 64%}
+    50% { top: 12.5%; left: 62%; }
+    }
 
 	  
-  #wheelchair_balloon {
-	animation: wheelchair_balloon 21s linear infinite;
-	position: absolute;
-	left: 85%;
-	top: 61%;
-	width: 12%;
-	/* opacity: ; */
-  }
-  @keyframes wheelchair_balloon {
-	0%, 100% { top: 10%; left: 79%}
-	50% { top: 14%; left: 82%; }
-  }
+    #wheelchair_balloon {
+        animation: wheelchair_balloon 21s linear infinite;
+        position: absolute;
+        left: 85%;
+        top: 61%;
+        width: 12%;
+        /* opacity: ; */
+    }
+    @keyframes wheelchair_balloon {
+        0%, 100% { top: 10%; left: 79%}
+        50% { top: 14%; left: 82%; }
+    }
 
-  #belltower {
-	  opacity: 0;
-  }
+    #belltower {
+        opacity: 0;
+    }
 
-  #cloudG {
-	animation: MoveUpDownG 19s linear infinite;
-	position: absolute;
-	left: 35%;
-	top: 135%;
-	opacity: 0.15;
-  }
-  
-  @keyframes MoveUpDownG {
-	0%, 100% { top: 135%; left: 35%}
-	50% { top: 133%; left: 38%; }
-  }
+    #cloudG {
+        animation: MoveUpDownG 19s linear infinite;
+        position: absolute;
+        left: 35%;
+        top: 135%;
+        opacity: 0.15;
+    }
+    
+    @keyframes MoveUpDownG {
+        0%, 100% { top: 135%; left: 35%}
+        50% { top: 133%; left: 38%; }
+    }
 
-  #cloudH {
-	animation: MoveUpDownH 12s linear infinite;
-	position: absolute;
-	left: 65%;
-	top: 80%;
-	opacity: 0.4;
-  }
+    #cloudH {
+        animation: MoveUpDownH 12s linear infinite;
+        position: absolute;
+        left: 65%;
+        top: 80%;
+        opacity: 0.4;
+    }
   
-  @keyframes MoveUpDownH {
-	0%, 100% { top: 91%; left: 68%}
-	50% { top: 95%; left: 66%; }
-  }
-  
-  #cloudI {
-	animation: MoveUpDownI 11s linear infinite;
-	position: absolute;
-	left: 7%;
-	top: 100%;
-	opacity: 0.7;
-	width: 45%
-  }
-  
-  @keyframes MoveUpDownI {
-	0%, 100% { top: 87%; left: -2%}
-	50% { top: 90%; left: -4%; }
-  }
+    @keyframes MoveUpDownH {
+        0%, 100% { top: 91%; left: 68%}
+        50% { top: 95%; left: 66%; }
+    }
+    
+    #cloudI {
+        animation: MoveUpDownI 11s linear infinite;
+        position: absolute;
+        left: 7%;
+        top: 100%;
+        opacity: 0.7;
+        width: 45%
+    }
+    
+    @keyframes MoveUpDownI {
+        0%, 100% { top: 87%; left: -2%}
+        50% { top: 90%; left: -4%; }
+    }
 
-  #cloudJ {
-	animation: MoveUpDownJ 9s linear infinite;
-	position: absolute;
-	left: -5%;
-	top: 80%;
-	opacity: 0.55;
-  }
-  
-  @keyframes MoveUpDownJ {
-	0%, 100% { top: 86%; left: 1%}
-	50% { top: 90%; left: 3%; }
-  }
+    #cloudJ {
+        animation: MoveUpDownJ 9s linear infinite;
+        position: absolute;
+        left: -5%;
+        top: 80%;
+        opacity: 0.55;
+    }
+    
+    @keyframes MoveUpDownJ {
+        0%, 100% { top: 86%; left: 1%}
+        50% { top: 90%; left: 3%; }
+    }
 
-  #cloudK {
-	animation: MoveUpDownK 15s linear infinite;
-	position: absolute;
-	left: 42%;
-	top: -3%;
-	opacity: 0.6;
-	height: 7%;
-	width: 23%;
-  }
-  
-  @keyframes MoveUpDownK {
-	0%, 100% { top: 92%; left: 23%}
-	50% { top: 90%; left: 24%; }
-  }
+    #cloudK {
+        animation: MoveUpDownK 15s linear infinite;
+        position: absolute;
+        left: 42%;
+        top: -3%;
+        opacity: 0.6;
+        height: 7%;
+        width: 23%;
+    }
+    
+    @keyframes MoveUpDownK {
+        0%, 100% { top: 92%; left: 23%}
+        50% { top: 90%; left: 24%; }
+    }
 
+    #cloudL{
+        animation: MoveUpDownL 17s linear infinite;
+        position: absolute;
+        left: 2%;
+        top: -2%;
+        opacity: 0.6;
+    }
+    
+    @keyframes MoveUpDownL {
+        0%, 100% { top: 85%; left: -1%}
+        50% { top: 86%; left: -2%; }
+    }
+    
+    #cloudM{
+        animation: MoveUpDownM 17s linear infinite;
+        position: absolute;
+        left: 2%;
+        top: -2%;
+        opacity: 0.6;
+        width: 15%;
+    }
+    
+    @keyframes MoveUpDownM {
+        0%, 100% { top: 85%; left: 18%}
+        50% { top: 82%; left: 15%; }
+    }
 
-  #cloudL{
-	animation: MoveUpDownL 17s linear infinite;
-	position: absolute;
-	left: 2%;
-	top: -2%;
-	opacity: 0.6;
-  }
-  
-  @keyframes MoveUpDownL {
-	0%, 100% { top: 85%; left: -1%}
-	50% { top: 86%; left: -2%; }
-  }
-  
- #cloudM{
-	animation: MoveUpDownM 17s linear infinite;
-	position: absolute;
-	left: 2%;
-	top: -2%;
-	opacity: 0.6;
-	width: 15%;
-  }
-  
-  @keyframes MoveUpDownM {
-	0%, 100% { top: 85%; left: 18%}
-	50% { top: 82%; left: 15%; }
-  }
+    #cloudN{
+        animation: MoveUpDownN 17s linear infinite;
+        position: absolute;
+        left: 2%;
+        top: -2%;
+        opacity: 0.6;
+        height: 6%;
+        width: 20%;
+    }
+    
+    @keyframes MoveUpDownN {
+        0%, 100% { top: 89%; left: 33%}
+        50% { top: 88%; left: 30%; }
+    }
 
-  #cloudN{
-	animation: MoveUpDownN 17s linear infinite;
-	position: absolute;
-	left: 2%;
-	top: -2%;
-	opacity: 0.6;
-	height: 6%;
-	width: 20%;
-  }
-  
-  @keyframes MoveUpDownN {
-	0%, 100% { top: 89%; left: 33%}
-	50% { top: 88%; left: 30%; }
-  }
+    #cloud5 {
+        animation: MoveUpDown5 9s linear infinite;
+        position: absolute;
+        left: 70%;
+        top: -1%;
+        opacity: 0.7;
+    }
+    
+    @keyframes MoveUpDown5 {
+        0%, 100% { top: -39%; left: 72%}
+        50% { top: -36%; left: 69%; }
+    }
 
-  #cloud5 {
-	animation: MoveUpDown5 9s linear infinite;
-	position: absolute;
-	left: 70%;
-	top: -1%;
-	opacity: 0.7;
-  }
-  
-  @keyframes MoveUpDown5 {
-	0%, 100% { top: -39%; left: 72%}
-	50% { top: -36%; left: 69%; }
-  }
+    #cloud5-5 {
+        animation: MoveUpDown5-5 14s linear infinite;
+        position: absolute;
+        left: 55%;
+        top: 0%;
+        opacity: 0.55;
+        width: 40%;
+    }
+    
+    @keyframes MoveUpDown5-5 {
+        0%, 100% { top: -38%; left: 61%}
+        50% { top: -34%; left: 63%; }
+    }
 
-  /* @keyframes MoveUpDown5 {
-	0%, 100% { top: 112%; left: 72%}
-	50% { top: 116%; left: 68%; }
-  } */
+    #cloud5-6 {
+        animation: MoveUpDown5-6 7s linear infinite;
+        position: absolute;
+        left: 42%;
+        top: -3%;
+        opacity: 0.3;
+    }
+    
+    @keyframes MoveUpDown5-6 {
+        0%, 100% { top: -45%; left: 60%}
+        50% { top: -42%; left: 64%; }
+    }
+  
+    #cloud5-7 {
+        animation: MoveUpDown5-7 17s linear infinite;
+        position: absolute;
+        left: 2%;
+        top: -2%;
+        opacity: 0.6;
+    }
+    
+    @keyframes MoveUpDown5-7 {
+        0%, 100% { top: -41%; left: 73%}
+        50% { top: -39%; left: 76%; }
+    }
 
-  #cloud5-5 {
-	animation: MoveUpDown5-5 14s linear infinite;
-	position: absolute;
-	left: 55%;
-	top: 0%;
-	opacity: 0.55;
-	width: 40%;
-  }
-  
-  @keyframes MoveUpDown5-5 {
-	0%, 100% { top: -38%; left: 61%}
-	50% { top: -34%; left: 63%; }
-  }
+    #cloud5-8 {
+        animation: MoveUpDown5-8 14s linear infinite;
+        position: absolute;
+        left: 55%;
+        top: 0%;
+        opacity: 0.8;
+    }
+    
+    @keyframes MoveUpDown5-8 {
+        0%, 100% { top: -44%; left: 93%}
+        50% { top: -42%; left: 89%; }
+    }
 
-  #cloud5-6 {
-	animation: MoveUpDown5-6 7s linear infinite;
-	position: absolute;
-	left: 42%;
-	top: -3%;
-	opacity: 0.3;
-  }
+    #cloud5-9 {
+        animation: MoveUpDown5-9 7s linear infinite;
+        position: absolute;
+        left: 42%;
+        top: -3%;
+        opacity: 0.65;
+    }
+    
+    @keyframes MoveUpDown5-9 {
+        0%, 100% { top: -37%; left: 82%}
+        50% { top: -43%; left: 85%; }
+    }
   
-  @keyframes MoveUpDown5-6 {
-	0%, 100% { top: -45%; left: 60%}
-	50% { top: -42%; left: 64%; }
-  }
+    #cloud5-10 {
+        animation: MoveUpDown5-10 17s linear infinite;
+        position: absolute;
+        left: 37%;
+        top: -1%;
+        opacity: 0.7;
+    }
   
-  #cloud5-7 {
-	animation: MoveUpDown5-7 17s linear infinite;
-	position: absolute;
-	left: 2%;
-	top: -2%;
-	opacity: 0.6;
-  }
-  
-  @keyframes MoveUpDown5-7 {
-	0%, 100% { top: -41%; left: 73%}
-	50% { top: -39%; left: 76%; }
-  }
-
-  #cloud5-8 {
-	animation: MoveUpDown5-8 14s linear infinite;
-	position: absolute;
-	left: 55%;
-	top: 0%;
-	opacity: 0.8;
-  }
-  
-  @keyframes MoveUpDown5-8 {
-	0%, 100% { top: -44%; left: 93%}
-	50% { top: -42%; left: 89%; }
-  }
-
-  /* @keyframes MoveUpDown5-5 {
-	0%, 100% { top: 118%; left: 49%}
-	50% { top: 116%; left: 53%; }
-  } */
-
-  #cloud5-9 {
-	animation: MoveUpDown5-9 7s linear infinite;
-	position: absolute;
-	left: 42%;
-	top: -3%;
-	opacity: 0.65;
-  }
-  
-  @keyframes MoveUpDown5-9 {
-	0%, 100% { top: -37%; left: 82%}
-	50% { top: -43%; left: 85%; }
-  }
-
-  /* @keyframes MoveUpDown5-6 {
-	0%, 100% { top: 114%; left: 38%}
-	50% { top: 110%; left: 42%; }
-  } */
-  
-  #cloud5-10 {
-	animation: MoveUpDown5-10 17s linear infinite;
-	position: absolute;
-	left: 37%;
-	top: -1%;
-	opacity: 0.7;
-  }
-  
-  @keyframes MoveUpDown5-10 {
-	0%, 100% { top: -36%; left: 0%}
-	50% { top: -34%; left: -4%; }
-  }
+    @keyframes MoveUpDown5-10 {
+	    0%, 100% { top: -36%; left: 0%}
+	    50% { top: -34%; left: -4%; }
+    }
   
 	body {
 		font-size: 16px;
