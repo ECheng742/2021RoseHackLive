@@ -2,11 +2,7 @@ var background = document.getElementById("background");
 var milestonesBox = document.getElementById("milestones");
 // temporary, until hero animation is done 
 var title = document.getElementById("title");
-var animation = document.getElementById("animation");
-var help = $("#about #help span");
-var stats = document.getElementById("stats");
-var organizers = document.getElementById("organizers");
-var sponsors = document.getElementById("sponsors");
+var animation = document.getElementById("animation"); 
 var socialMedia = document.getElementById("socialMedia");
 var quickIcon = document.getElementById("quickIcon");
 
@@ -33,18 +29,6 @@ if (document.body) {
         quickIcon.classList.remove("titleMatchNightBackground");
         quickIcon.classList.add("titleMatchDayBackground");
 
-        help.removeClass("helpBoxNightBackground");
-        help.addClass("helpBoxDayBackground");
-
-        stats.classList.remove("statsNightTheme");
-        stats.classList.add("statsDayTheme");
-
-        organizers.classList.remove("nightOrganizersBackground");
-        organizers.classList.add("dayOrganizersBackground");
-
-        sponsors.classList.remove("nightSponsorsBackground");
-        sponsors.classList.add("daySponsorsBackground");
-
         socialMedia.classList.remove("nightSocialMediaBackground");
         socialMedia.classList.add("daySocialMediaBackground");
 
@@ -70,18 +54,6 @@ if (document.body) {
         
         quickIcon.classList.remove("quMatchDayBackground");
         quickIcon.classList.add("titleMatchNightBackground");
-
-        help.removeClass("helpBoxDayBackground");
-        help.addClass("helpBoxNightBackground");
-
-        stats.classList.remove("statsDayTheme");
-        stats.classList.add("statsNightTheme");
-
-        organizers.classList.remove("dayOrganizersBackground");
-        organizers.classList.add("nightOrganizersBackground");
-
-        sponsors.classList.remove("daySponsorsBackground");
-        sponsors.classList.add("nightSponsorsBackground");
 
         socialMedia.classList.remove("daySocialMediaBackground");
         socialMedia.classList.add("nightSocialMediaBackground");
