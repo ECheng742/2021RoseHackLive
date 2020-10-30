@@ -28,8 +28,8 @@
 	/* opacity: 0.6; */
   }
   @keyframes MoveBalloonB {
-	0%, 100% { top: 10%; left: 4%}
-	50% { top: 6%; left: 9%; }
+	0%, 100% { top: 10%; left: 25%}
+	50% { top: 6%; left: 20%; }
   }
 
   #balloonC {
@@ -491,23 +491,19 @@ h1, h2, h3 {
   }
 
 
-  #belltower {
-	animation: belltower 14s linear infinite;
+  #belltower{
+	animation: BellTower 17s linear infinite;
 	position: absolute;
-	left: 55%;
-	top: 0%;
-	opacity: 0.55;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
   }
   
-  @keyframes belltower {
-	0%, 100% { top: 71%; left: -1%}
-	50% { top: 73%; left: -2%; }
+  @keyframes BellTower {
+	0%, 100% { top: 33%; left: 2%}
+	50% { top: 36%; left: 1%; }
   }
 
-  /* @keyframes MoveUpDown5-5 {
-	0%, 100% { top: 118%; left: 49%}
-	50% { top: 116%; left: 53%; }
-  } */
 
   #cloud5-6 {
 	animation: MoveUpDown5-6 7s linear infinite;
@@ -1046,14 +1042,8 @@ h1, h2, h3 {
 	50% { top: 75%; left: -1%; }
   }
 
-.dayGradientBackground {
-	background: -webkit-linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35));
-	background: linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35));
-}
 
-.nightGradientBackground {
-	background: linear-gradient(rgb(61, 57, 83));
-}
+
 
 h1 {
 	margin-top: 0;
@@ -1882,8 +1872,8 @@ a, a:visited {
     }
   
     @keyframes MoveUpDownH {
-        0%, 100% { top: 91%; left: 68%}
-        50% { top: 95%; left: 66%; }
+        0%, 100% { top: 91%; left: 28%}
+        50% { top: 95%; left: 26%; }
     }
     
     #cloudI {
