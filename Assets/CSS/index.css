@@ -21,7 +21,7 @@
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
-	/* margin: 0; */
+	margin: 0;
 
 	/*careful, may mess up elsewhere*/
 	/* overflow-x: hidden; */
@@ -119,7 +119,7 @@ a, a:visited {
 
 #title {
 	/* padding-top: 11%; */
-    margin-bottom: 3%;
+    /* margin-bottom: 3%; */
     text-align: center;
 }
 
@@ -135,8 +135,8 @@ a, a:visited {
 	/* opacity: 0.6; */
   }
   @keyframes MoveBalloonB {
-	0%, 100% { top: 10%; left: 4%}
-	50% { top: 6%; left: 9%; }
+	0%, 100% { top: 10%; left: 25%}
+	50% { top: 6%; left: 20%; }
   }
 
   #balloonC {
@@ -334,8 +334,8 @@ a, a:visited {
   }
   
   @keyframes MoveUpDownH {
-	0%, 100% { top: 91%; left: 68%}
-	50% { top: 85%; left: 66%; }
+	0%, 100% { top: 81%; left: 68%}
+	50% { top: 75%; left: 66%; }
   }
   
   #cloudI {
@@ -347,8 +347,8 @@ a, a:visited {
   }
   
   @keyframes MoveUpDownI {
-	0%, 100% { top: 78%; left: -2%}
-	50% { top: 80%; left: -4%; }
+	0%, 100% { top: 68%; left: -2%}
+	50% { top: 70%; left: -4%; }
   }
 
   #cloudJ {
@@ -360,8 +360,8 @@ a, a:visited {
   }
   
   @keyframes MoveUpDownJ {
-	0%, 100% { top: 86%; left: 1%}
-	50% { top: 90%; left: 3%; }
+	0%, 100% { top: 76%; left: 1%}
+	50% { top: 80%; left: 3%; }
   }
 
   #cloudK {
@@ -373,8 +373,8 @@ a, a:visited {
   }
   
   @keyframes MoveUpDownK {
-	0%, 100% { top: 92%; left: 23%}
-	50% { top: 95%; left: 24%; }
+	0%, 100% { top: 82%; left: 23%}
+	50% { top: 85%; left: 24%; }
   }
 
 
@@ -521,17 +521,17 @@ a, a:visited {
 	50% { top: -21%; left: 82%; }
   }
 
-  #belltower {
-	animation: belltower 14s linear infinite;
+  #belltower{
+	animation: BellTower 17s linear infinite;
 	position: absolute;
-	left: 55%;
-	top: 0%;
-	opacity: 0.55;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
   }
   
-  @keyframes belltower {
-	0%, 100% { top: 71%; left: -1%}
-	50% { top: 73%; left: -2%; }
+  @keyframes BellTower {
+	0%, 100% { top: 33%; left: 2%}
+	50% { top: 36%; left: 1%; }
   }
 
   #cloud5-6 {
@@ -1105,8 +1105,8 @@ a, a:visited {
     }
   
     @keyframes MoveUpDownH {
-        0%, 100% { top: 91%; left: 68%}
-        50% { top: 95%; left: 66%; }
+        0%, 100% { top: 91%; left: 28%}
+        50% { top: 95%; left: 26%; }
     }
     
     #cloudI {
