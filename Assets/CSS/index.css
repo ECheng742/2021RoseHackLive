@@ -10,18 +10,20 @@
 	src: url(Lora-MediumItalic.ttf);
 }
 
-.animationDay {
+.animationDayBackground {
 	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210));
 }
 
-.animationNight {
+.animationNightBackground {
 	background: rgb(61, 57, 83);
 }
 
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
-	margin: 0;
+    margin: 0;
+    
+    height: 100vh;
 
 	/*careful, may mess up elsewhere*/
 	/* overflow-x: hidden; */
@@ -34,24 +36,25 @@ body {
 	/* font-family: 'Lora', serif; */
 	/* font-weight: normal; */
 	/* font-size: 25px; */
-	/* letter-spacing: 0.1rem; */
+	letter-spacing: 0.1rem;
 }
 
-h1 {
-	font-family: alvania, 'serif';
+#title {
+	padding: 10% 0 1%;
 }
 
-#background {
-	position: relative;
+#name, #title p {
+    font-family: alvania, 'serif';
+    color: #9C9FB7;
+    text-align: center;
 }
 
-.dayGradientBackground {
-	background: -webkit-linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35));
-	background: linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35));
+#name {
+    font-size: 5rem;
 }
 
-.nightGradientBackground {
-	background: linear-gradient(rgb(61, 57, 83));
+#title p {
+    font-size: 2rem;
 }
 
 a, a:visited {
@@ -107,21 +110,6 @@ a, a:visited {
 	font-size: 0.6em;
 }
 
-
-#title {
-	font-size: 1.4em;
-	height: 100vh;
-	margin: 0;
-	padding: 12% 0 1%;
-
-	/* color: #d1d3e3; */
-}
-
-#title {
-	/* padding-top: 11%; */
-    /* margin-bottom: 3%; */
-    text-align: center;
-}
 
 
 /* begin animation */

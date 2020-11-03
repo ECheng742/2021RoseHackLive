@@ -1,5 +1,4 @@
-var background = document.getElementById("background");
-var milestonesBox = document.getElementById("milestones");
+var background = document.getElementsByTagName("body")[0];
 // temporary, until hero animation is done 
 var title = document.getElementById("title");
 var animation = document.getElementById("animation"); 
@@ -10,56 +9,26 @@ var quickIcon = document.getElementById("quickIcon");
 var currentTime = new Date().getHours();
 if (document.body) {
     if (7 <= currentTime && currentTime < 24) {
+        // day theme
         $(".objectsDay").show();
         $(".objectsNight").hide();
+       
+        background.classList.remove("animationNightBackground");
+        background.classList.add("animationDayBackground");
 
-        // day theme
-        background.classList.remove("nightGradientBackground");
-        background.classList.add("dayGradientBackground");
-
-        milestonesBox.classList.remove("milestonesNightBoxColor");
-        milestonesBox.classList.add("milestonesDayBoxColor");
-
-        title.classList.remove("titleMatchNightBackground");
-        title.classList.add("titleMatchDayBackground");
-
-        animation.classList.remove("animationNight");
-        animation.classList.add("animationDay");
-
-        quickIcon.classList.remove("titleMatchNightBackground");
-        quickIcon.classList.add("titleMatchDayBackground");
-
-        socialMedia.classList.remove("nightSocialMediaBackground");
-        socialMedia.classList.add("daySocialMediaBackground");
-
-        socialMedia.classList.remove("nightSocialMediaColor");
-        socialMedia.classList.add("daySocialMediaColor");
+        // quickIcon.classList.remove("titleMatchNightBackground");
+        // quickIcon.classList.add("titleMatchDayBackground");
     }
     else {
         // night theme
         $(".objectsDay").hide();
         $(".objectsNight").show();
 
-        background.classList.remove("dayGradientBackground");
-        background.classList.add("nightGradientBackground");
-
-        milestonesBox.classList.remove("milestonesDayBoxColor");
-        milestonesBox.classList.add("milestonesNightBoxColor");
-
-        title.classList.remove("titleMatchDayBackground");
-        title.classList.add("titleMatchNightBackground");
-
-        animation.classList.remove("animationDay");
-        animation.classList.add("animationNight");
+        background.classList.remove("animationDayBackground");
+        background.classList.add("animationNightBackground");
         
-        quickIcon.classList.remove("quMatchDayBackground");
-        quickIcon.classList.add("titleMatchNightBackground");
-
-        socialMedia.classList.remove("daySocialMediaBackground");
-        socialMedia.classList.add("nightSocialMediaBackground");
-        
-        socialMedia.classList.remove("daySocialMediaColor");
-        socialMedia.classList.add("nightSocialMediaColor");
+        // quickIcon.classList.remove("quMatchDayBackground");
+        // quickIcon.classList.add("titleMatchNightBackground");
 
         // setTimeout(function() {
         var intervalID = window.setInterval(function() {
@@ -168,43 +137,6 @@ if (document.body) {
         }, 9000);
     }
 }
-
-// calculates what to display for countdown timer
-var countDownDate = new Date("Jan 16, 2021 08:00:00").getTime();
-// Update every second
-var x = setInterval(function() {
-    var now = new Date().getTime();
-        
-    var distance = countDownDate - now;
-        
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-    document.getElementById("countdown").innerHTML = "Virtual Rose Hack begins in: " + days + " days ";
-
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("countdown").innerHTML = "ROSE HACK ENDS ON AUGUST 8TH AT 12:00 PM PST";
-    }
-    else if (minutes <= 0 && hours <= 0 && days <= 0) {
-
-        document.getElementById("countdown").innerHTML = "Virtual Rose Hack begins in: " + seconds + " sec ";
-    }
-    else if (hours <= 0 && days <= 0) {
-        document.getElementById("countdown").innerHTML = "Virtual Rose Hack begins in: " + minutes + " min  " + seconds + " sec ";
-    }
-    else if (days <= 0) {
-        document.getElementById("countdown").innerHTML = "Virtual Rose Hack begins in: " + hours + " hr  " + minutes + " min  " + seconds + " sec ";
-    }
-    else if (days == 1) {
-        document.getElementById("countdown").innerHTML = "Virtual Rose Hack begins in: " + days + " day " + hours + " hr  " + minutes + " min  " + seconds + " sec ";
-    }
-    else if (days <= 2) {
-        document.getElementById("countdown").innerHTML = "Virtual Rose Hack begins in: " + days + " days  " + hours + " hr  " + minutes + " min ";
-    }
-}, 1000);
 
 
 
