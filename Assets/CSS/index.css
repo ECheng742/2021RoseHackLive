@@ -156,6 +156,14 @@ a, a:visited {
 	50% { top: 47%; left: 24%; }
   }
 
+  
+#sun {
+		position: absolute;
+		opacity: 1;
+		left: 42.5%;
+		top: 60%;
+}
+
   #crane1 {
 	animation: crane1 7s linear infinite;
 	position: absolute;
@@ -1047,7 +1055,7 @@ a, a:visited {
     0%, 100% { top: 11.5%; left: 64%}
     50% { top: 12.5%; left: 62%; }
     }
-	  
+
     #wheelchair_balloon {
         animation: wheelchair_balloon 21s linear infinite;
         position: absolute;
