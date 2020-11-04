@@ -129,6 +129,59 @@ if (document.body) {
 }
 
 
+//countdown timer
+var countDownDate = new Date("Jan 17, 2021 12:00:00").getTime();
+// Update every second
+var x = setInterval(function() {
+    var now = new Date().getTime();
+        
+    var distance = countDownDate - now;
+        
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+    // document.getElementById("hourTimer").innerHTML = "**";
+    document.getElementById("hourTimer").style.opacity = "1";
+    // document.getElementById("minTimer").innerHTML = "**";
+    document.getElementById("minTimer").style.opacity = "1";
+    // document.getElementById("secTimer").innerHTML = "**";
+    document.getElementById("secTimer").style.opacity = "1";
+
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("hourTimer").innerHTML = "00";
+        document.getElementById("minTimer").innerHTML = "00";
+        document.getElementById("secTimer").innerHTML = "00";
+    }
+    else {
+        if (hours < 10) {
+            document.getElementById("hourTimer").innerHTML = "0" + hours;
+        }
+        else {
+            document.getElementById("hourTimer").innerHTML = hours;
+        }
+        if (minutes < 10) {
+            document.getElementById("minTimer").innerHTML = "0" + minutes;
+        }
+        else {
+            document.getElementById("minTimer").innerHTML = minutes;
+        }
+        if (seconds < 10) {
+            document.getElementById("secTimer").innerHTML = "0" + seconds;
+        }
+        else {
+            document.getElementById("secTimer").innerHTML = seconds;
+        }
+        if (days > 1) {
+            document.getElementById("hourTimer").innerHTML = "24";
+            document.getElementById("minTimer").innerHTML = "0";
+            document.getElementById("secTimer").innerHTML = "0";
+        }
+    }
+}, 1000);
+
 
 // allows email to be copyied to clipboard
 $(document).ready(function() {
