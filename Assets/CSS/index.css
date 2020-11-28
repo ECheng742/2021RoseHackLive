@@ -7,7 +7,7 @@
 
 @font-face {
 	font-family: lora;
-	src: url(Lora-MediumItalic.ttf);
+	src: url(Lora-Medium.ttf);
 }
 
 .animationDayBackground {
@@ -37,6 +37,10 @@ body {
 	/* font-weight: normal; */
 	/* font-size: 25px; */
 	letter-spacing: 0.1rem;
+}
+
+a {
+	font-family: 'Lora', serif;
 }
 
 #title {
