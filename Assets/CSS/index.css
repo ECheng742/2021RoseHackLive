@@ -43,12 +43,16 @@ a {
 	font-family: 'Lora', serif;
 }
 
-#title {
+.header {
 	padding: 10% 0 1%;
     font-family: alvania, 'serif';
     color: #9C9FB7;
     text-align: center;
     font-size: 2rem;
+}
+
+#sponsortitle {
+	padding: 5% 0 1%;
 }
 
 #name {
@@ -119,8 +123,38 @@ a, a:visited {
 	font-size: 0.6em;
 }
 
+#sponsors {
+	width: 75%;
+	position: relative;
+}
 
+#sponsors .row {
+	/* for when there are more sponsors */
+	/* grid-template-columns: 33% 33% 33%; */
 
+	/* margin-top: 5%; */
+}
+
+#sponsors span {
+	/* padding: 10%;
+	display: -webkit-flex;
+	display: flex; */
+}
+
+#sponsors a {
+	width: 45%;
+	margin: auto;
+	display: -webkit-flex;
+	/* align-items: flex-start; */
+	/* display:flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* padding: 7%; */
+}
+
+#sponsors .sponsorIcon {
+	width: 100%;
+}
 
 /* begin animation */
 #balloonB {
