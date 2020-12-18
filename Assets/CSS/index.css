@@ -51,6 +51,34 @@ a {
     font-size: 2rem;
 }
 
+.links {
+	background-color: #fff; 
+	opacity: 0.4;
+	border: none;
+	margin-bottom: 9%;
+	border-radius: 5px;
+	color: #043482;
+	padding: 2% 8%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding-left: 12.5%;
+  }
+
+.row_resources{
+	
+}
+
 #sponsortitle {
 	padding: 5% 0 1%;
 }
