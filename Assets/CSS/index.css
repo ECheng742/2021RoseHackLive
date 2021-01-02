@@ -101,12 +101,19 @@ body {
 .row_resources{
 	
 }
-#sponsors #sponsorsTable{
+#sponsors {
 	background-color: rgba(255,255,255, 0.15);
-	padding: 5%;
+	/* padding: 5%; */
 	border-radius: 0.3em;
 }
 
+#sponsors #sponsorsTable {
+	padding: 3%;
+}
+
+#sponsors #space {
+	width: 90%;
+}
 #sponsortitle {
 	padding: 5% 0 1%;
 }
