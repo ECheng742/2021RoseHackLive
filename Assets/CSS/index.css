@@ -92,8 +92,8 @@ body {
 	margin: auto;
 }
 
-.box {
-   padding: 0 6%;	
+#FAQ .button {
+   /* padding: 0 6%;	
    font-size: 0.9em;
    color:rgb(166, 186, 215);
    border-radius: 0.3em;
@@ -102,7 +102,22 @@ body {
    margin-left:3%;
    text-align: center;
    margin-bottom:5%;
-   padding-top:5%;
+   padding-top:5%; */
+   background-color: #fff; 
+	opacity: 0.3;
+	border: none;
+	border-radius: 5px;
+	color: #043482;
+	padding: 1% 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 65%;
+	font-size: 1.0em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	transition-duration: 0.4s;
+	cursor: pointer;
 	
 }
 
@@ -112,7 +127,7 @@ body {
 	color: rgb(129, 167, 224);
 }
 
-#FAQ .box:hover{
+#FAQ .button:hover{
 	background-color: rgba(185, 178, 178, 0.4);
 }
 
