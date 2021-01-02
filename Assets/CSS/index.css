@@ -83,7 +83,7 @@ body {
 	width: 90%;
 } */
 
-.row {
+#FAQ .row {
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 33% 34% 33%;
@@ -112,7 +112,7 @@ body {
 #FAQ .row {
 	text-align: center;
 	width: 90%;
-	margin-left:6.5%;
+	/* margin-left:6.5%; */
 }
 
 
