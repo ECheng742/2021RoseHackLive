@@ -58,7 +58,7 @@ body {
 	margin-bottom: 9%;
 	border-radius: 5px;
 	color: #043482;
-	padding: 2% 8%;
+	padding: 2% 14%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -72,8 +72,17 @@ body {
 .column {
 	float: left;
 	width: 33.33%;
-	padding-left: 12.5%;
+	padding-left: 6.25%;
+	padding-right: 6.25%;
+	text-align:center;
+	position: relative ;
+
   }
+
+.links{
+	width: 90%;
+}
+
 
 #schedule {
 	width: 80%;
