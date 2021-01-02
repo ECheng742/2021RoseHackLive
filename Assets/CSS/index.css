@@ -21,7 +21,8 @@
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
-    margin: 0;
+	margin: 0;
+	/* margin-top: 20%; */
     
     height: 100vh;
 
@@ -1155,6 +1156,11 @@ a, a:visited {
 		grid-template-columns: 100%;
 		margin-top: 5%;
 	}
+
+	
+#body {
+	margin-top: 10%;
+}
 	#balloonB {
 		animation: MoveBalloonB 19s linear infinite;
 		position: absolute;
