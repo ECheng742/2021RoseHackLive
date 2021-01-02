@@ -51,7 +51,7 @@ body {
     font-size: 2rem;
 }
 
-.links {
+/* .links {
 	background-color: #fff; 
 	opacity: 0.4;
 	border: none;
@@ -81,6 +81,38 @@ body {
 
 .links{
 	width: 90%;
+} */
+
+.row {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 33% 34% 33%;
+	    grid-template-columns: 33% 34% 33%;
+	margin: auto;
+}
+
+.box {
+   padding: 0 6%;	
+   font-size: 0.9em;
+   color:rgb(166, 186, 215);
+   border-radius: 0.3em;
+}
+
+.link {
+	font-family: 'Playfair Display', 'serif';
+    font-size: 1.85em;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+#FAQ {
+	position: relative;
+}
+
+#FAQ .row {
+	text-align: center;
+	width: 90%;
+	margin-left:6.5%;
 }
 
 
@@ -107,9 +139,7 @@ body {
 	text-align: right;
 }
 
-.row_resources{
-	
-}
+
 #sponsors #sponsorsTable{
 	background-color: rgba(255,255,255, 0.15);
 	padding: 5%;
@@ -1406,5 +1436,8 @@ a, a:visited {
 		max-width: 6.5%;
 		min-width: 5%;
 	}
+
+}
+@media only screen and (max-width: 600px) {
 
 }
