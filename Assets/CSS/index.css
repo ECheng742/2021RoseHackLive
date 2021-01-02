@@ -96,6 +96,7 @@ body {
    font-size: 0.9em;
    color:rgb(166, 186, 215);
    border-radius: 0.3em;
+   color: aquamarine;
 }
 
 .link {
@@ -160,7 +161,7 @@ body {
 }
 
 #name {
-    font-size: 5rem;
+    font-size: 3.6rem;
 }
 
 #countdown {
@@ -1109,7 +1110,11 @@ a, a:visited {
 
 /* mobile development */
 @media only screen and (max-width: 600px) {
-
+	#FAQ .row {
+		grid-template-columns: 100%;
+		text-align: center;
+		width: 90%;
+	} 
 	#balloonB {
 		animation: MoveBalloonB 19s linear infinite;
 		position: absolute;
@@ -1445,8 +1450,5 @@ a, a:visited {
 		max-width: 6.5%;
 		min-width: 5%;
 	}
-
-}
-@media only screen and (max-width: 600px) {
 
 }
