@@ -83,6 +83,13 @@ body {
 .links{
 	width: 90%;
 } */
+nav span a:visited {
+	color: #9C9FB7;
+}
+
+nav span a:hover {
+	opacity: 0.8;
+}
 
 #FAQ .row {
 	display: -ms-grid;
