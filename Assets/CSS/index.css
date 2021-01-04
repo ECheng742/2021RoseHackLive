@@ -237,7 +237,7 @@ body {
 	text-align: center;
 	font-size: 1.5rem;
 	font-family: 'alvania';
-	width: 25%;
+	width: 22%;
 	margin: auto;
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
@@ -1191,6 +1191,10 @@ a, a:visited {
 	
 #body {
 	margin-top: 15%;
+}
+
+#countdown {
+	width: 35%;
 }
 	#balloonB {
 		animation: MoveBalloonB 19s linear infinite;
