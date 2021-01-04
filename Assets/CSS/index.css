@@ -1199,6 +1199,11 @@ a, a:visited {
 #body {
 	margin-top: 15%;
 }
+
+#title {
+	margin-top: 15%;
+}
+
 nav span a{
 	color: #9C9FB7;
 }
