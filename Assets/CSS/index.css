@@ -11,7 +11,8 @@
 }
 
 .animationDayBackground {
-	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210));
+	background-color: #585675;
+	/* background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210)); */
 }
 
 .animationNightBackground {
@@ -25,7 +26,7 @@ body {
 	/* margin-top: 20%; */
     
     height: 100vh;
-
+	background-color: #585675;
 	/*careful, may mess up elsewhere*/
 	/* overflow-x: hidden; */
 	
@@ -90,6 +91,12 @@ nav span a:visited {
 nav span a:hover {
 	opacity: 0.8;
 }
+
+.scheduleChart {
+	width: 80%;
+	margin: 2% 10%;
+}
+
 
 #FAQ .row {
 	display: -ms-grid;
