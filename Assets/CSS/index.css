@@ -154,6 +154,9 @@ nav span a:hover {
 	
 }
 
+.button:active, .button:focus {
+	outline-width: 0;
+}
 
 
 #FAQ .button:visited{
