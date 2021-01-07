@@ -1124,10 +1124,12 @@ a, a:visited {
 	body {
 		font-size: 18px;
 	}
-
+	#body {
+		margin-top: 15%;
+		/* margin-bottom: 10%; */
+	}
 	#title {
 		padding: 20% 0 1%;
-		margin-top: 15%;
 	}
 	#quickIcon #simpleEmail {
 		display: none;
