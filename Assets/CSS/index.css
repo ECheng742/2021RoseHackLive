@@ -1131,8 +1131,8 @@ a, a:visited {
 
 	#title {
 		padding: 20% 0 1%;
+		margin-top: 15%;
 	}
-
 	#quickIcon #simpleEmail {
 		display: none;
 	}
@@ -1219,9 +1219,6 @@ a, a:visited {
 		text-align: center;
 		width: 90%;
 	} 
-	#sponsors {
-		margin-bottom: 10%;
-	}
 	#sponsors .row {
 		grid-template-columns: 100%;
 		margin-top: 5%;
