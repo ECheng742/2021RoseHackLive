@@ -1124,12 +1124,11 @@ a, a:visited {
 	body {
 		font-size: 18px;
 	}
-	#body {
-		margin-top: 15%;
-		/* margin-bottom: 10%; */
-	}
 	#title {
 		padding: 20% 0 1%;
+	}
+	.header {
+		margin-top: 5%;
 	}
 	#quickIcon #simpleEmail {
 		display: none;
@@ -1203,10 +1202,6 @@ a, a:visited {
 		50% { top: 91%; left: 62%; }
 	  }
 }
-
-
-
-
 
 
 
