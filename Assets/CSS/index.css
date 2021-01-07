@@ -184,6 +184,51 @@ nav span a:hover {
 	width: 90%;
 	/* margin-left:6.5%; */
 }
+#organizers {
+	width: 75%;
+	padding: 1% 1% 3%;
+	margin: auto;
+	margin-bottom: 2%;
+	border-radius: 0.3em;
+	position: relative;
+	background-color: rgba(255,255,255, 0.25);
+	/* padding: 5%; */
+	border-radius: 0.3em;
+}
+
+/* #organizers #sponsorsTable {
+	padding: 3%;
+} */
+#organizers .row {
+	/* for when there are more sponsors */
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 50% 50%;
+	    grid-template-columns: 50% 50%;
+	margin: auto;
+	width: 65%;
+}
+
+#organizers span {
+	padding: 10%;
+	display: -webkit-flex;
+	display: flex;
+}
+
+#organizers a {
+	width: 45%;
+	margin: auto;
+	display: -webkit-flex;
+	align-items: flex-start;
+	/* display:flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* padding: 7%; */
+}
+
+#organizers .organizerIcon {
+	width: 100%;
+}
 
 #sponsors {
 	width: 75%;
@@ -255,13 +300,13 @@ nav span a:hover {
 	border-radius: 0.3em;
 }
 
-#sponsors #sponsorsTable {
+/* #sponsors #sponsorsTable {
 	padding: 3%;
-}
+} */
 
-#sponsors #space {
+/* #sponsors #space {
 	width: 90%;
-}
+} */
 #sponsortitle {
 	padding: 5% 0 1%;
 }
