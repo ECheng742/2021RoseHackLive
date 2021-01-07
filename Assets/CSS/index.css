@@ -1134,6 +1134,16 @@ a, a:visited {
 	.header {
 		margin-top: 5%;
 	}
+	nav span a{
+		color: #9C9FB7;
+	}
+	nav span a:visited {
+		color: #9C9FB7;
+	}
+	
+	nav span a:hover {
+		opacity: 0.8;
+	}
 	#countdown {
 		width: 46%;
 	}
