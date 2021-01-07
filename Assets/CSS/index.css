@@ -53,6 +53,14 @@ body {
     font-size: 2rem;
 }
 
+#message {
+	font-family: alvania, 'serif';
+    color: #9C9FB7;
+	text-align: center;
+	padding: 1.5%;
+	padding-top: 0;
+}
+
 /* .links {
 	background-color: #fff; 
 	opacity: 0.4;
