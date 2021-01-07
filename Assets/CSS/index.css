@@ -28,7 +28,7 @@ body {
     height: 100vh;
 	background-color: #585675;
 	/*careful, may mess up elsewhere*/
-	/* overflow-x: hidden; */
+	/* overflow-y: hidden; */
 	
 	/* text-align: center; */
 	/* color: #9C9FB7; */
@@ -40,7 +40,16 @@ body {
 	/* font-size: 25px; */
 	letter-spacing: 0.1rem;
 }
-
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
 /* a {
 	font-family: 'Lora', serif;
 } */
