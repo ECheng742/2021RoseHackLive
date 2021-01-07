@@ -1281,7 +1281,10 @@ a, a:visited {
 		grid-template-columns: 100%;
 		margin-top: 5%;
 	}
-
+	#organizers .row {
+		grid-template-columns: 100%;
+		margin-top: 5%;
+	}
 	
 #body {
 	margin-top: 15%;
