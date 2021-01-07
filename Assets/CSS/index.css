@@ -93,8 +93,8 @@ nav span a:hover {
 }
 
 .scheduleChart {
-	width: 80%;
-	margin: 2% 10%;
+	width: 55%;
+	margin: 2% 22.5%;
 }
 
 
@@ -1226,6 +1226,12 @@ nav span a:hover {
 #countdown {
 	width: 40%;
 }
+
+.scheduleChart {
+	width: 100%;
+	margin: 2% auto;
+}
+
 	#balloonB {
 		animation: MoveBalloonB 19s linear infinite;
 		position: absolute;
