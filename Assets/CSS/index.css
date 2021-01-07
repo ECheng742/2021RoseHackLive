@@ -1228,8 +1228,8 @@ nav span a:hover {
 }
 
 .scheduleChart {
-	width: 95%;
-	margin: 2% 2.5%;
+	width: 100%;
+	margin: 2% auto;
 }
 
 	#balloonB {
