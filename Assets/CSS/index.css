@@ -244,7 +244,7 @@ nav span a:hover {
 	
 }
 #sponsors {
-	background-color: rgba(255,255,255, 0.15);
+	background-color: rgba(255,255,255, 0.25);
 	/* padding: 5%; */
 	border-radius: 0.3em;
 }
@@ -381,7 +381,6 @@ a, a:visited {
 	position: absolute;
 	left: 85%;
 	top: 21%;
-	/* opacity: 1; */
   }
   @keyframes MoveBalloonC {
 	0%, 100% { top: 40%; left: 67%}
@@ -393,7 +392,6 @@ a, a:visited {
 	position: absolute;
 	left: 85%;
 	top: 61%;
-	/* opacity: ; */
   }
   @keyframes wheelchair_balloon {
 	0%, 100% { top: 10%; left: 77%}
