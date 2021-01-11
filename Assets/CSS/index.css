@@ -18,6 +18,25 @@
 .animationNightBackground {
 	background: rgb(61, 57, 83);
 }
+#hero {
+	width: 70%;
+	margin: 2% 15%;
+}
+
+#splitcol {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 50% 50%;
+		grid-template-columns: 50% 50%;
+	width: 80%;
+	margin: auto;
+
+	padding-top: 15%;
+}
+#title {
+	padding-top: 0;
+	font-size: 2.5rem;
+}
 
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
@@ -315,15 +334,15 @@ nav span a:hover {
 }
 
 #name {
-    font-size: 3.6rem;
+    font-size: 5rem;
 }
 
 #countdown {
 	color: #9C9FB7;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-family: 'alvania';
-	width: 25%;
+	width: 65%;
 	margin: auto;
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
@@ -1272,6 +1291,9 @@ a, a:visited {
 
 /* mobile development */
 @media only screen and (max-width: 600px) {
+	#splitcol {
+			grid-template-columns: 100%;
+	}
 	#FAQ .row {
 		grid-template-columns: 100%;
 		text-align: center;
