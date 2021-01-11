@@ -1292,16 +1292,19 @@ a, a:visited {
 /* mobile development */
 @media only screen and (max-width: 600px) {
 	#hero {
-		width: 80%;
-		margin: 2% 10%;
+		width: 90%;
+		margin: 20% 5%;
 	}
 	
 	#splitcol {
 		grid-template-columns: 100%;
-		width: 80%;
+		width: 100%;
 		margin: auto;
 	
-		padding-top: 10%;
+		padding-top: 0;
+	}
+	#title {
+		padding-top: 0;
 	}
 	#FAQ .row {
 		grid-template-columns: 100%;
@@ -1676,9 +1679,9 @@ nav span a:hover {
 		font-size: 10px;
 	}
 
-	#title {
+	/* #title {
 		padding: 35% 0 1%;
-	}
+	} */
 
 	#quickIcon {
 		display: none;
