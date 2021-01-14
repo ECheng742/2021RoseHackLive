@@ -43,7 +43,9 @@
 	padding-top: 0;
 	font-size: 2.5rem;
 }
-
+#mobilesplit {
+	display: none;
+}
 body {
 	/*don't know if some components rely on the body's little margin as restrictions,
 	but footer needs to go all the way across*/
@@ -1366,13 +1368,17 @@ span .navbar-toggler-icon {
 		margin: 0;
 	}
 	#splitcol {
-		grid-template-columns: 100%;
+		display: none;
+		/* grid-template-columns: 100%;
 		width: 100%;
 		margin: auto;
 	
 		padding-top: 0;
-		padding: 0;
+		padding: 0; */
 		/* height: 100vh; */
+	}
+	#mobilesplit {
+		display: block;
 	}
 	#title {
 		padding-top: 0;
