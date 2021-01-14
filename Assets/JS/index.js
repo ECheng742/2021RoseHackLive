@@ -2,36 +2,37 @@ var background = document.getElementsByTagName("body")[0];
 // temporary, until hero animation is done 
 var title = document.getElementById("title");
 var animation = document.getElementById("animation"); 
+background.classList.add("animationDayBackground");
 var socialMedia = document.getElementById("socialMedia");
 var quickIcon = document.getElementById("quickIcon");
 
 // switches btn day/night theme based on time
-var currentTime = new Date().getHours();
-if (document.body) {
-    if (7 <= currentTime && currentTime < 24) {
-        // day theme
-        $(".objectsDay").show();
-        $(".objectsNight").hide();
+// var currentTime = new Date().getHours();
+// if (document.body) {
+//     if (7 <= currentTime && currentTime < 24) {
+//         // day theme
+//         $(".objectsDay").show();
+//         $(".objectsNight").hide();
        
-        background.classList.remove("animationNightBackground");
-        background.classList.add("animationDayBackground");
+//         background.classList.remove("animationNightBackground");
+//         background.classList.add("animationDayBackground");
 
-        // quickIcon.classList.remove("titleMatchNightBackground");
-        // quickIcon.classList.add("titleMatchDayBackground");
-    }
-    else {
-        // night theme
-        $(".objectsDay").hide();
-        $(".objectsNight").show();
+//         quickIcon.classList.remove("titleMatchNightBackground");
+//         quickIcon.classList.add("titleMatchDayBackground");
+//     }
+//     else {
+//         // night theme
+//         $(".objectsDay").hide();
+//         $(".objectsNight").show();
 
-        background.classList.remove("animationDayBackground");
-        background.classList.add("animationNightBackground");
+//         background.classList.remove("animationDayBackground");
+//         background.classList.add("animationNightBackground");
         
-        // quickIcon.classList.remove("quMatchDayBackground");
-        // quickIcon.classList.add("titleMatchNightBackground");
+//         quickIcon.classList.remove("quMatchDayBackground");
+//         quickIcon.classList.add("titleMatchNightBackground");
 
-    }
-}
+//     }
+// }
 
 
 //countdown timer
