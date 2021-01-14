@@ -222,13 +222,12 @@ nav span a:hover {
 	margin-bottom: 2%;
 	border-radius: 0.3em;
 	position: relative;
-	background-color: rgba(255,255,255, 0.25);
+	background-color: rgba(255,255,255, 0.4);
 	/* padding: 5%; */
 	border-radius: 0.3em;
 }
 
 #organizers .row {
-	/* for when there are more sponsors */
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-columns: 50% 50%;
@@ -323,7 +322,7 @@ nav span a:hover {
 	
 }
 #sponsors {
-	background-color: rgba(255,255,255, 0.25);
+	background-color: rgba(255,255,255, 0.4);
 	/* padding: 5%; */
 	border-radius: 0.3em;
 }
