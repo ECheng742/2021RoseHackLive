@@ -81,7 +81,10 @@ body::-webkit-scrollbar {
 	background-color: #c8cadf;
 }
 .yellow {
-	background-color: #F5F1D0;
+	background-color: #4F4A7D;
+}
+.words {
+	color: #9C9FB7;
 }
 .header {
 	padding: 10% 0 1%;
