@@ -1375,7 +1375,7 @@ span .navbar-toggler-icon {
 	
 		padding-top: 0;
 		padding: 0;
-		height: 100vh;
+		/* heightt: 100vh; */
 	}
 	#mobilesplit {
 		/* display: block; */
