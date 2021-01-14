@@ -1312,6 +1312,9 @@ a, a:visited {
 		margin: 20% 5%;
 	}
 	
+	#headline {
+		padding: 0;
+	}
 	#splitcol {
 		grid-template-columns: 100%;
 		width: 100%;
@@ -1321,6 +1324,7 @@ a, a:visited {
 	}
 	#title {
 		padding-top: 0;
+		/* font-size: 2rem; */
 	}
 	#FAQ .row {
 		grid-template-columns: 100%;
