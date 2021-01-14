@@ -418,6 +418,9 @@ span .navbar-toggler-icon {
 	transform: scale(1.1); 
 	transition: all .3s linear;
 }
+#mlh-trust-badge {
+	/* top: 1%; */
+}
 #mlh-trust-badge:hover {
 	opacity: 1;
 }
@@ -1351,12 +1354,13 @@ span .navbar-toggler-icon {
 /* mobile development */
 @media only screen and (max-width: 600px) {
 	#hero {
-		width: 90%;
-		margin: 20% 5% 0;
+		width: 80%;
+		margin: 20% 10% 0;
 	}
 	
 	#headline {
 		padding: 0;
+		margin: 0;
 	}
 	#splitcol {
 		grid-template-columns: 100%;
