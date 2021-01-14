@@ -1309,7 +1309,7 @@ a, a:visited {
 @media only screen and (max-width: 600px) {
 	#hero {
 		width: 90%;
-		margin: 20% 5%;
+		margin: 20% 5% 0;
 	}
 	
 	#headline {
@@ -1324,7 +1324,15 @@ a, a:visited {
 	}
 	#title {
 		padding-top: 0;
+		width: 90%;
+		margin: auto;
 		/* font-size: 2rem; */
+	}
+	#name{
+		font-size: 3rem;
+	}
+	#date {
+		font-size: 2rem;
 	}
 	#FAQ .row {
 		grid-template-columns: 100%;
@@ -1367,7 +1375,7 @@ nav span a:hover {
 }
 
 #countdown {
-	width: 40%;
+	width: 60%;
 }
 
 .scheduleChart {
