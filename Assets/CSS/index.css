@@ -403,6 +403,9 @@ a:hover {
 	color: #bdc0d1;
 	opacity: 1;
 }
+span .navbar-toggler-icon {
+	color: #bdc0d1;
+}
 /* 
 #contact a, a:visited {
 	color: #bdc0d1;
