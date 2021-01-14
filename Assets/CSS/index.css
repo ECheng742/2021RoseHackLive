@@ -21,9 +21,8 @@
 	background: rgb(61, 57, 83);
 }
 #hero {
-	width: 95%;
+	width: 88%;
 	margin: 0 15%;
-	border: 1px white solid;
 }
 
 #splitcol {
@@ -34,7 +33,7 @@
 	width: 87%;
 	margin: auto;
 
-	padding-top: 5%;
+	padding-top: 8%;
 }
 #headline {
 	padding: 10%;
@@ -151,7 +150,7 @@ body::-webkit-scrollbar {
 	width: 90%;
 } */
 nav span a:visited {
-	color: #bdc0d1;
+	color: #9C9FB7;
 }
 
 nav span a:hover {
@@ -387,7 +386,7 @@ nav span a:hover {
 }
 
 a, a:visited {
-	color: #bdc0d1;
+	color: #9C9FB7;
 	text-decoration: none;
 }
 
