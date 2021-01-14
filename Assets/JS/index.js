@@ -3,8 +3,8 @@ var background = document.getElementsByTagName("body")[0];
 var title = document.getElementById("title");
 var animation = document.getElementById("animation"); 
 background.classList.add("animationDayBackground");
-var socialMedia = document.getElementById("socialMedia");
-var quickIcon = document.getElementById("quickIcon");
+// var socialMedia = document.getElementById("socialMedia");
+// var quickIcon = document.getElementById("quickIcon");
 
 // switches btn day/night theme based on time
 // var currentTime = new Date().getHours();

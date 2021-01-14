@@ -1368,17 +1368,17 @@ span .navbar-toggler-icon {
 		margin: 0;
 	}
 	#splitcol {
-		display: none;
-		/* grid-template-columns: 100%;
+		/* display: none; */
+		grid-template-columns: 100%;
 		width: 100%;
 		margin: auto;
 	
 		padding-top: 0;
-		padding: 0; */
-		/* height: 100vh; */
+		padding: 0;
+		height: 100vh;
 	}
 	#mobilesplit {
-		display: block;
+		/* display: block; */
 	}
 	#title {
 		padding-top: 0;
