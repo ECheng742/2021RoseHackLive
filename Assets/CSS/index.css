@@ -412,7 +412,9 @@ a:hover {
 	transform: scale(1.1); 
 	transition: all .3s linear;
 }
-
+#mlh-trust-badge:hover {
+	opacity: 1;
+}
 #mlhTag {
 	display: block;
 	max-width: 6.5%;
