@@ -1278,6 +1278,11 @@ span .navbar-toggler-icon {
 	#countdown {
 		width: 46%;
 	}
+	.scheduleChart {
+		width: 80%;
+		margin: 10% auto;
+		margin-bottom: 15%;
+	}
 	#quickIcon #simpleEmail {
 		display: none;
 	}
@@ -1355,14 +1360,10 @@ span .navbar-toggler-icon {
 
 /* mobile development */
 @media only screen and (max-width: 600px) {
-	html {
-		/* height: 100vh; */
-	}
 	#hero {
 		width: 70%;
 		margin: 18% 15% 0;
 	}
-	
 	#headline {
 		padding: 0;
 		margin: 0;
@@ -1376,9 +1377,6 @@ span .navbar-toggler-icon {
 		padding-top: 0;
 		padding: 0;
 		/* heightt: 100vh; */
-	}
-	#mobilesplit {
-		/* display: block; */
 	}
 	#title {
 		padding-top: 0;
