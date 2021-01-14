@@ -21,8 +21,9 @@
 	background: rgb(61, 57, 83);
 }
 #hero {
-	width: 88%;
+	width: 95%;
 	margin: 0 15%;
+	border: 1px white solid;
 }
 
 #splitcol {
@@ -33,7 +34,7 @@
 	width: 87%;
 	margin: auto;
 
-	padding-top: 8%;
+	padding-top: 5%;
 }
 #headline {
 	padding: 10%;
