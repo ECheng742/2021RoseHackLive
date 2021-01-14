@@ -11,7 +11,8 @@
 }
 
 .animationDayBackground {
-	background-color: #585675;
+	/* background-color: #585675; */
+	background-color: #3F3466;
 	/* background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210)); */
 }
 
