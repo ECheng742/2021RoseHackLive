@@ -13,6 +13,7 @@
 .animationDayBackground {
 	/* background-color: #585675; */
 	background-color: #3F3466;
+	/* background-color: white; */
 	/* background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210)); */
 }
 
@@ -20,8 +21,8 @@
 	background: rgb(61, 57, 83);
 }
 #hero {
-	width: 70%;
-	margin: 2% 15%;
+	width: 100%;
+	margin: 0 15%;
 }
 
 #splitcol {
@@ -29,10 +30,13 @@
 	display: grid;
 	-ms-grid-columns: 50% 50%;
 		grid-template-columns: 50% 50%;
-	width: 80%;
+	width: 87%;
 	margin: auto;
 
-	padding-top: 15%;
+	padding-top: 8%;
+}
+#headline {
+	padding: 10%;
 }
 #title {
 	padding-top: 0;
