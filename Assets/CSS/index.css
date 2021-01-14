@@ -303,6 +303,11 @@ nav span a:hover {
 #sponsors .sponsorIcon {
 	width: 100%;
 }
+
+#sponsors #sf {
+	width: 85%;
+	margin: auto;
+}
 #schedule {
 	width: 80%;
 }
