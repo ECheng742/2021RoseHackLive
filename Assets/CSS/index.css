@@ -1275,6 +1275,9 @@ span .navbar-toggler-icon {
 	nav span a:hover {
 		opacity: 0.8;
 	}
+	#hero {
+		padding-top:5%;
+	}
 	#name{
 		font-size: 3rem;
 	}
