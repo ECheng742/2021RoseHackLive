@@ -2,36 +2,37 @@ var background = document.getElementsByTagName("body")[0];
 // temporary, until hero animation is done 
 var title = document.getElementById("title");
 var animation = document.getElementById("animation"); 
-var socialMedia = document.getElementById("socialMedia");
-var quickIcon = document.getElementById("quickIcon");
+background.classList.add("animationDayBackground");
+// var socialMedia = document.getElementById("socialMedia");
+// var quickIcon = document.getElementById("quickIcon");
 
 // switches btn day/night theme based on time
-var currentTime = new Date().getHours();
-if (document.body) {
-    if (7 <= currentTime && currentTime < 24) {
-        // day theme
-        $(".objectsDay").show();
-        $(".objectsNight").hide();
+// var currentTime = new Date().getHours();
+// if (document.body) {
+//     if (7 <= currentTime && currentTime < 24) {
+//         // day theme
+//         $(".objectsDay").show();
+//         $(".objectsNight").hide();
        
-        background.classList.remove("animationNightBackground");
-        background.classList.add("animationDayBackground");
+//         background.classList.remove("animationNightBackground");
+//         background.classList.add("animationDayBackground");
 
-        // quickIcon.classList.remove("titleMatchNightBackground");
-        // quickIcon.classList.add("titleMatchDayBackground");
-    }
-    else {
-        // night theme
-        $(".objectsDay").hide();
-        $(".objectsNight").show();
+//         quickIcon.classList.remove("titleMatchNightBackground");
+//         quickIcon.classList.add("titleMatchDayBackground");
+//     }
+//     else {
+//         // night theme
+//         $(".objectsDay").hide();
+//         $(".objectsNight").show();
 
-        background.classList.remove("animationDayBackground");
-        background.classList.add("animationNightBackground");
+//         background.classList.remove("animationDayBackground");
+//         background.classList.add("animationNightBackground");
         
-        // quickIcon.classList.remove("quMatchDayBackground");
-        // quickIcon.classList.add("titleMatchNightBackground");
+//         quickIcon.classList.remove("quMatchDayBackground");
+//         quickIcon.classList.add("titleMatchNightBackground");
 
-    }
-}
+//     }
+// }
 
 
 //countdown timer
@@ -41,7 +42,6 @@ var x = setInterval(function() {
     var now = new Date().getTime();
         
     var distance = countDownDate - now;
-        
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -79,12 +79,14 @@ var x = setInterval(function() {
         else {
             document.getElementById("secTimer").innerHTML = seconds;
         }
-        if (days > 1) {
+        if (days >= 1) {
             document.getElementById("hourTimer").innerHTML = "24";
             document.getElementById("minTimer").innerHTML = "0";
             document.getElementById("secTimer").innerHTML = "0";
         }
     }
+    
+    // document.getElementById("hourTimer").innerHTML = days;
 }, 1000);
 
 
