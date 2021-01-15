@@ -42,7 +42,6 @@ var x = setInterval(function() {
     var now = new Date().getTime();
         
     var distance = countDownDate - now;
-        
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -80,12 +79,14 @@ var x = setInterval(function() {
         else {
             document.getElementById("secTimer").innerHTML = seconds;
         }
-        if (days > 1) {
+        if (days >= 1) {
             document.getElementById("hourTimer").innerHTML = "24";
             document.getElementById("minTimer").innerHTML = "0";
             document.getElementById("secTimer").innerHTML = "0";
         }
     }
+    
+    // document.getElementById("hourTimer").innerHTML = days;
 }, 1000);
 
 
