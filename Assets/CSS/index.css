@@ -162,7 +162,7 @@ nav span a:hover {
 .scheduleChart {
 	width: 55%;
 	margin: 2% 22.5%;
-	margin-bottom: 5%;
+	/* margin-bottom: 5%; */
 }
 
 #sheet {
@@ -1293,10 +1293,13 @@ span .navbar-toggler-icon {
 	#countdown {
 		width: 62%;
 	}
+	.top {
+		margin-bottom: 2%;
+	}
 	.scheduleChart {
 		width: 80%;
 		margin: 2% 10%;
-		margin-bottom: 15%;
+		/* margin-bottom: 10%; */
 	}
 	#quickIcon #simpleEmail {
 		display: none;
@@ -1453,7 +1456,7 @@ nav span a:hover {
 .scheduleChart {
 	width: 100%;
 	margin: 2% auto;
-	margin-bottom: 15%;
+	/* margin-bottom: 15%; */
 }
 
 	#balloonB {
